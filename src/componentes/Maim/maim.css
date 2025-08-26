@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    background-color: #000;
+    height: 100vh;
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    text-align: center;
+    background-image: url('../../assets/nova1.PNG');
+    background-size: cover;
+    background-position: center;    
+    background-repeat: no-repeat;
+   
+    
+
+}
+.main h1{
+    display: flex;
+    font-size: 50px;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    margin: 30px;
+}
+.main h2{
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    color: #f4f11d;
+    margin-bottom: 20px;
+}
+
+.main button{
+    background-color: #000;
+    color: #fff;
+    padding: 15px 30px 15px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.main button:hover{
+    background-color: #ffc800;
+    color: #000;
+    transition: 0.5s;
+}   
+.main button:active{
+    background-color: #ff0;
+    color: #000;
+    transition: 0.5s;
+}
+.main a{
+    text-decoration: none;
+}
+
+
