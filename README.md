@@ -25,7 +25,7 @@ Um site da barbearia central desenvolvido para melhorar sua experiência com os 
 
 ## Demonstração:
 
-## Como rodar este projeto?
+
 
 ...
 1. Clone este repositório:
