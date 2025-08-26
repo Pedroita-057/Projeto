@@ -11,7 +11,7 @@ export default function Barra() {
           </aside>
             
 
-          <div className="pagina">
+          <div className="pagina" id="pagina-sobre">
           
           <div className="lado-esquerdo">
         
