@@ -17,4 +17,12 @@
     font-size: 15;
 }
 
+@media ( max-width: 450px){
+    .barra{
+        height: 40px;
+        width: 100%;
+        font-size: 7px;
+    }
+}
+
 
