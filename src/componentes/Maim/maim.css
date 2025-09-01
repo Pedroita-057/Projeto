@@ -27,13 +27,13 @@
     display: flex;
     font-size: 50px;
     color: #000;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-items: center;
     margin: 30px;
 }
 .main h2{
     font-size: 40px;
-    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #f4f11d;
     margin-bottom: 20px;
 }
@@ -62,3 +62,28 @@
 }
 
 
+@media ( max-width: 450px){
+
+    .main{
+        height: 600px;
+        background-image: url('../../assets/nova1.PNG');
+        background-size: cover;
+        background-position: center;    
+        background-repeat: no-repeat;
+    }
+    .main h1{
+        font-size: 30px;
+        margin: 10px;
+        color: #fff;
+    }
+    .main h2{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .main button{
+        padding: 10px 20px 10px 20px;
+        font-size: 15px;
+    }
+}
+   
+   
