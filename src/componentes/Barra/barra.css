@@ -21,7 +21,8 @@
     .barra{
         height: 40px;
         width: 100%;
-        font-size: 12px;
+        font-size: 10px;
+        justify-content: center;
     }
 }
 
