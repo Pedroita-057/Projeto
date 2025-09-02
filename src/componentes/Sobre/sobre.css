@@ -71,15 +71,18 @@
         height: auto;
         text-align: center;
         justify-content: center;
+        
         margin: 0;
     }
     .lado-esquerdo h1{
         font-size: 30px;
         margin: 20px 10px 0 10px;
+       
     }
     .lado-esquerdo p{
         font-size: 15px;
         margin: 10px;
+        text-align: justify;
     }
     .lado-direito{
         width: 100%;
