@@ -14,3 +14,12 @@
     align-items: center;
     font-size: 10px;
 }
+
+@media ( max-width: 450px){
+    .rodape{
+        height: 30px;
+        width: 100%;
+        font-size: 8px;
+        justify-content: center;
+    }
+}

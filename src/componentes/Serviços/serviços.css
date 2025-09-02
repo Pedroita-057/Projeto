@@ -26,4 +26,19 @@
   
 }
 
-
+@media ( max-width: 450px){
+    .serviços{
+        height: auto;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 20px 0 20px 0;
+    }
+    .serviços h1{
+        font-size: 30px;
+        margin: 20px 10px 0 10px;
+       
+    }
+}
