@@ -41,6 +41,7 @@
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 20px;
     margin-left: 70px;
+    text-align: justify;
 }
 .lado-direito{
 
@@ -93,6 +94,7 @@
     .lado-direito img{
         width: 250px;
         height: 250px;
+        margin-bottom: 7px;
     }
     
 }

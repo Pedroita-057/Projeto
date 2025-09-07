@@ -1,5 +1,5 @@
 import './sobre.css'
-import FotoSobre from "../../assets/foto1.avif"
+import FotoSobre from "../../assets/barber.jpg"
 
 
 export default function Sobre() {
