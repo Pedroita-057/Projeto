@@ -5,6 +5,9 @@ export default function Rodape() {
         <>
             <footer className='rodape'>
                  <h1>Barbearia central © 2025. Todos os direitos reservados.</h1>
+
+                  
+                  
             </footer>
         </>
     )
