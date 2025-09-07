@@ -44,7 +44,7 @@ export default function Serviços() {
                 </div>        
 
                  </div>
-            <h1>Outros serviços disponiveis:</h1>
+           
                
             </div>
         </>
