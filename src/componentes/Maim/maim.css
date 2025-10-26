@@ -19,7 +19,7 @@
     background-size: cover;
     background-position: center;    
     background-repeat: no-repeat;
-   
+    ;
     
 
 }
@@ -30,7 +30,7 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
     align-items: center;
     margin: 30px;
-}
+} 
 .main h2{
     font-size: 45px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

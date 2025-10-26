@@ -16,7 +16,7 @@ body{
     height: 80px;
     width: 100%;
     display: flex;
-    position: fixed;
+    position:fixed;
 }
 header {
     display: flex;
@@ -45,6 +45,32 @@ a:hover{
 }
   
 a:active{
+    color: #be9c17;
+    transition: 0.5s;
+}
+.icon{
+    border:0;
+}
+
+.insta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin-right: 50px;
+    margin-left: 5px;
+    color: #fff;
+    border: 0;
+    
+}
+.insta{
+    cursor: pointer;
+}
+.insta :hover{
+    color: #be9c17;
+    transition: 0.5s;
+}
+.insta:active{
     color: #be9c17;
     transition: 0.5s;
 }

@@ -2,7 +2,7 @@ import './sobre.css'
 import FotoSobre from "../../assets/barber.jpg"
 
 
-export default function Sobre() {
+export default function Sobre({size}) {
     return(
         <>
              <div className="pagina" id="pagina-sobre">
@@ -25,7 +25,11 @@ export default function Sobre() {
 
          <div className="lado-direito">
 
-         <img src={FotoSobre} alt='Foto sobre' className='Foto' />
+         <img 
+         src={FotoSobre} alt='Foto sobre' className='Foto' 
+         width={450}
+         height={450}
+         />
          
          </div>    
         

@@ -5,7 +5,7 @@ import Foto2 from  "../../assets/nova.avif"
 export default function Maim() {
     return(
         <>
-            <main className='main' id="home">
+            <main className='main'>
                 <div>
                     <h1>Olá,</h1>
                     <h1>seja bem vindo</h1>

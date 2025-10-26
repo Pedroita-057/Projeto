@@ -13,10 +13,14 @@ function App() {
    <>
    
     
-    <Menu />
+    <Menu/>
     <Maim />
     <Barra/>
-    <Sobre/>
+
+    <Sobre
+       size={450}
+    />
+    
     <Serviços/>
     <Rodape/>
     
