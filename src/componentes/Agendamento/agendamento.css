@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.agendamento{
+    background-color: #be9c17;
+    height: 710px;
+    width: 100%;
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.agendamento form{
+    background-color: #ffffff;
+    height: auto;
+    width: 100%;
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    text-align: center;
+}
+.agendamento_2{
+    border: solid 5px #000;
+    border-radius: 15px;
+    height: 630px;
+    width: 550px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+
+}
+.agendamento_2 form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    width: 540px;
+    height: 620px;
+    border-radius: 10px;
+}
+.agendamento_2 input{
+    margin: 10px;
+    padding: 10px;
+    width: 350px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    font-size: 16px;
+
+}
+.agendamento_2 label{
+    font-size: 25px;
+    color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+.agendamento_2 button{
+    background-color: #000;
+    color: #fff;
+    padding: 15px 30px 15px 30px;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.agendamento_2 button:hover{
+    background-color: #ffc800;
+    color: #000;
+    transition: 0.5s;
+}
+@media (max-width: 600px){
+    .agendamento_2{
+        width: 90%;
+        height: auto;
+    }
+    .agendamento_2 form{
+        width: 100%;
+        height: auto;
+    }
+    .agendamento_2 input{
+        width: 80%;
+    }
+
+}
+
+
+
+
+
+

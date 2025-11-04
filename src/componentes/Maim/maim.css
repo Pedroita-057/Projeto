@@ -46,6 +46,7 @@
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    margin-left: 100px;
 }
 .main button:hover{
     background-color: #ffc800;
@@ -60,6 +61,7 @@
 .main a{
     text-decoration: none;
     border: 0;
+    font-size: 30px;
 }
 
 

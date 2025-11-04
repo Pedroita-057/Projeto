@@ -2,6 +2,8 @@
 import './maim.css'
 import Foto1 from  "../../assets/foto1.avif"
 import Foto2 from  "../../assets/nova.avif"
+import { Link } from "react-router-dom";
+
 export default function Maim() {
     return(
         <>
@@ -11,12 +13,11 @@ export default function Maim() {
                     <h1>seja bem vindo</h1>
                     
                    <h2>Barbearia Central</h2>
-
-                    <a href="https://wa.me/5582991218950" target="blank">
-                        <button>
-                            Agende seu horário
-                        </button>
-                    </a>
+                 <ul>
+                    <li> <button> <Link to="/Agendamento">Agende aqui</Link> </button>
+                       
+                    </li>
+                    </ul>
                 </div>
             </main>
         </>
