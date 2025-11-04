@@ -89,7 +89,9 @@
     .agendamento_2 input{
         width: 80%;
     }
-
+    .agendamento_2 button{
+        margin: 20px;
+    }
 }
 
 
