@@ -31,16 +31,13 @@ export default function Sobre({size}) {
          height={450}
          />
          
-         </div>    
+            </div>    
 
-                    
-
-
-        
-          </div>
+         </div>
 
            
           <aside className='barra'>
+            
                 <h1>ESCOLHA O SEU ESTILO QUE A GENTE CAPRICHA!</h1>
 
           </aside>

@@ -20,32 +20,39 @@ function App() {
    <>
      <Router>
 
-      
-    
        <header className='menu1'>
-              <img src={FotoLogo} alt='Logo do menu' className='logo' /> 
-               
+        
+            <Link 
+            
+                    className= "borda"  to="/maim"><img src={FotoLogo} alt='Logo do menu' className='logo' 
+            
+            /></Link> 
                     <ul>
-                        <li><Link to="/maim">Home</Link></li>
                         <li> <Link to="/sobre">Sobre</Link></li>
                         <li> <Link to="/servicos">Serviços</Link></li>
                     </ul>
                     
-                    <a href='https://wa.me/5582991218950' target="blank">Contato</a>
+                    <a className="contato" href='https://wa.me/5582991218950' target="blank">Contato</a>
                     <a href=' https://www.instagram.com/' target="_blank" className="insta" > <FaInstagram/></a>
                     
-             </header> 
+       </header> 
 
+
+
+              
       <Routes>
-        <Route path="/" element={<Menu />} />
+
+        <Route path="/" element={<Maim />} />
+
+        <Route path="/menu" element={<Menu />} />
         <Route path="/Maim" element={<Maim />} />
-        <Route path="/Agendamento" element={<Agendamento />} />
+        <Route path="/agendamento" element={<Agendamento />} />
         <Route path="/sobre" element={<Sobre size={450} />} />
         <Route path="/servicos" element={<Serviços />} />
         <Route path="/rodape" element={<Rodape />} />
       </Routes>
     </Router>
-
+   
     <Rodape />
     
     

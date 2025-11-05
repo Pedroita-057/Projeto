@@ -10,11 +10,11 @@ export default function Maim() {
             <main className='main'>
                 <div>
                     <h1>Olá,</h1>
-                    <h1>seja bem vindo</h1>
+                    <h1>Seja bem vindo</h1>
                     
                    <h2>Barbearia Central</h2>
                  <ul>
-                    <li> <button> <Link to="/Agendamento">Agende aqui</Link> </button>
+                    <li> <button> <Link to="/agendamento">Agende aqui</Link> </button>
                        
                     </li>
                     </ul>
