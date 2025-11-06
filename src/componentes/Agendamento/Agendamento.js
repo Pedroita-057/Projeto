@@ -3,15 +3,19 @@ import { useState, useEffect } from 'react'
 import axios from 'axios'
 
 export default function Agendamento() {
+
   const [nome, setNome] = useState('')
   const [horario, setHorario] = useState('')
   const [dia, setDia] = useState('')
   const [telefone, setTelefone] = useState('')
   const [mensagem, setMensagem] = useState(false)
 
+
   function agendar(e) {
+
     e.preventDefault() 
 
+// Envia os dados para o servidor
     axios.post('http://localhost:3001/agendar', {
       nome,
       horario,
@@ -30,10 +34,10 @@ export default function Agendamento() {
       setMensagem(false)
     })
   }
-
+// Esse alert exibe a mensagem de sucesso por 3 segundos
   useEffect(() => {
     if (mensagem) {
-      alert('✅ Agendamento realizado com sucesso!')
+      alert('Agendamento realizado com sucesso!')
       const timer = setTimeout(() => setMensagem(false), 3000)
       return () => clearTimeout(timer)
     }
@@ -79,13 +83,7 @@ export default function Agendamento() {
             <button type="submit">Agendar</button>
           </form>
         </div>
-
-            <p>
-          
-               {mensagem ? `Agendamento realizado com sucesso!` : ''}
-          
-            </p>
-
+            <p> {mensagem ? `Agendamento realizado com sucesso!` : ''} </p>
       </div>
     </>
   )

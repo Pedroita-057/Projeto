@@ -136,15 +136,38 @@ header img{
     color: #fff;
     margin:  2px 2px 2px 2px;
     padding: 5px;
-    font-size: 15px;
+    font-size: 12px;
     }
+    li{
+    margin:  1px 2px 2px 1px;
+    font-size: 12px;
+    }
+    ul{
+    margin-right: 2px;
+    padding: 5px;
+    }
+    .contato{
+    margin-right: 5px;
+    font-size: 12px;
+    margin-left: 0;
+    padding: 5px;
+    }
+    .insta{
+    height: 40px;
+    width: 40px;
+    margin-left: 12px;
+    
+    
 
+    }
     header img{
-    height: 70px;
-    width: 70px;
-    display: flex;
+    height: 50px;
+    width: 50px;
+    display: block;
     justify-content: flex-start;
-    margin: 35px;
+    margin: 0;
+
+
    
    
    

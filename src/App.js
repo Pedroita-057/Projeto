@@ -49,7 +49,7 @@ function App() {
         <Route path="/agendamento" element={<Agendamento />} />
         <Route path="/sobre" element={<Sobre size={450} />} />
         <Route path="/servicos" element={<Serviços />} />
-        <Route path="/rodape" element={<Rodape />} />
+        
       </Routes>
     </Router>
    
