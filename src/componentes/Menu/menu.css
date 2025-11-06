@@ -143,19 +143,21 @@ header img{
     font-size: 12px;
     }
     ul{
-    margin-right: 2px;
+    margin-right: 1px;
     padding: 5px;
     }
     .contato{
     margin-right: 5px;
     font-size: 12px;
     margin-left: 0;
+    margin-right: 10px;
     padding: 5px;
     }
     .insta{
     height: 40px;
     width: 40px;
-    margin-right: 30px;
+    margin-left: 0;
+    margin-right: 110px;
     
     
 
@@ -166,6 +168,7 @@ header img{
     display: block;
     justify-content: flex-start;
     margin: 0; 
+    margin-right: 0px;
     
 
 
