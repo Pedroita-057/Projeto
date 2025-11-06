@@ -157,7 +157,7 @@ header img{
     height: 40px;
     width: 40px;
     margin-left: 0;
-    margin-right: 80px;
+    margin-right: 70px;
     
     
 
@@ -167,8 +167,8 @@ header img{
     width: 50px;
     display: block;
     justify-content: flex-start;
-    margin: 0; 
-    margin-right: 0px;
+    margin-left: 10px; 
+    margin-right: 0;
     
 
 
