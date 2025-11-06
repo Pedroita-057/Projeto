@@ -69,7 +69,7 @@
 @media ( max-width: 450px){
 
     .main{
-        height: 600px;
+        height: 760px;
         background-image: url('../../assets/nova1.PNG');
         background-size: cover;
         background-position: center;    
