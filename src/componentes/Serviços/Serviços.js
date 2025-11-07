@@ -13,40 +13,98 @@ export default function Serviços() {
     return(
         <>
             <div className='serviços' id="servicos"> 
-                 <h1>Serviços:</h1>
+                 
+            <div class="container-fotos">
 
-                 <h2>Cortes para todos os gostos!</h2>
+                 <div class="fotos1">
 
-                 <div class="fotos">
                        <img src={img1} alt='img1' className='foto1' />
-                          
+                       
+                       <p>DEglade</p>
+                       <p>VALOR: R$ 30</p>
+                
+                 </div>  
+                   
+                
+                 <div class="fotos2">     
+
                        <img src={img2} alt='img2' className='foto2' />
-                       
+                       <p>DEglade</p>
+                       <p>VALOR: R$ 30</p>
+                 </div>  
+
+                 <div class="fotos3">
+
                        <img src={img3} alt='img3' className='foto3' />
+                          <p>DEglade</p>
+                          <p>VALOR: R$ 30</p>
+
+                </div>
+
+                  
 
 
-                <div class="fotos">
+                <div class="fotos4">
+
                        <img src={img4} alt='img4' className='foto4' />
-                      
-                       <img src={img5} alt='img5' className='foto5' />
-                    
-                       <img src={img6} alt='img6' className='foto6' />
-                       
-                </div>      
+                       <p>DEglade</p>
+                          <p>VALOR: R$ 30</p>
 
-                 <div class="fotos">
-                       <img src={img7} alt='img7' className='foto7' />
+                 </div>        
                       
+                 <div class="fotos5">     
+
+                       <img src={img5} alt='img5' className='foto5' />
+                          <p>DEglade</p>
+                            <p>VALOR: R$ 30</p>
+
+                </div>        
+                    
+                <div class="fotos6">    
+
+                       <img src={img6} alt='img6' className='foto6' />
+                        <p>DEglade</p>
+                          <p>VALOR: R$ 30</p>
+
+                </div>    
+                     
+
+                 <div class="fotos7">
+
+                       <img src={img7} alt='img7' className='foto7' />
+                        <p>DEglade</p>
+                          <p>VALOR: R$ 30</p>
+
+                 </div>     
+
+                 <div class="fotos8">
+
                        <img src={img8} alt='img5' className='foto8' />
+                        <p>DEglade</p>
+                          <p>VALOR: R$ 30</p>
+
+                 </div>        
+
+                 <div class="fotos9">      
                     
                        <img src={img9} alt='img6' className='foto9' />
+                        <p>DEglade</p>
+                          <p>VALOR: R$ 30</p>
+
+                 </div>      
                        
-                </div>        
+                 <div class="fotos10">      
+                    
+                       <img src={img9} alt='img6' className='foto9' />
+                        <p>DEglade</p>
+                          <p>VALOR: R$ 30</p>
+
+                 </div>          
 
                 </div>
            
-               
             </div>
+            
         </>
     )
 }

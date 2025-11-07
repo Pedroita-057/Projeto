@@ -7,6 +7,7 @@
 
 .pagina{
    display: flex;
+    height: auto;
    
     
   
@@ -16,6 +17,7 @@
    height: 550px;
    background-color: #ffffff;
    flex-direction: row;
+   margin-top: 50px;
    
  
 }
@@ -24,7 +26,7 @@
     color: #79550d;
     align-items: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-top: 50px;
+    margin-top: 80px;
     margin-left: 70px;
     
   
@@ -55,6 +57,7 @@
    align-items: center;
    justify-content: end;
    margin-right: 150px;
+   margin-top: 50px;
 
 }
 .lado-direito img{
@@ -109,7 +112,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 30px;
     font-size: 15;
 }
 
